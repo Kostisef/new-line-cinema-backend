@@ -1,6 +1,23 @@
 # new-line-cinema-backend
 Backend and Admin panel for a Cinema. Implemented with Java, MySQL and JavaFX.
 
+## Installation guide:
+### Java code part
+1. install Netbeans
+2. new Project -> Java -> Java Application
+3. name it "CinemaProject"
+4. copy all the data from src and paste them into yours src
+5. right-click to Library (yours project) and then import jar --> "mysql-connector-java-5.1.39"
+6. complile and run (main class --> CinemaProject.MainMenu)
+
+### MySQL code part
+1. install MYSQL Workbench
+2. make a connection
+3. run my database script
+4. open a new script an run "insert.txt"
+5. you are done, the database is full.
+6. you have not to worry about login privileges to our database, because we have created a "test" user,given him ALL the privileges 
+
 ## Database architecture
 <h3>
   <p align="center">
